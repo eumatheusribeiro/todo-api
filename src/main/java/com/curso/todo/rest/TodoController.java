@@ -23,7 +23,7 @@ import com.curso.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("https://eumatheusribeiro.github.io/")
+@CrossOrigin("*")
 public class TodoController {
 	
 	@Autowired
